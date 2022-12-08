@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*code : 'This program tells us the size of char, int, long int, long long int, and float'
-*Return - Always 0 (Success)
+*return - Always 0 (Success)
 */
 int main(void)
 {
