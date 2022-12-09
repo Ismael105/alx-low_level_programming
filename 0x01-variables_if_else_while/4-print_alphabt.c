@@ -6,9 +6,9 @@
 int main(void)
 {
 char i;
-for (i == 'a'; i <= 'z'; i++){
+while (i <= 'z'){
 if (i == 'e' || i == 'q')
-continue;
+i++
 else
 putchar(i);}
 putchar('\n');
