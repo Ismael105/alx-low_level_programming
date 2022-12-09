@@ -5,11 +5,8 @@
  */
 int main(void)
 {
-int i = 0;
-while (i < 10)
-{
-int printf(i);
-i++;
-}
+int i;
+for (i = 0; i < 10; i++
+printf(i);
 return (0);
 }
