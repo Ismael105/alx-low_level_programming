@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char s = 0;
+int s = 0;
 while (s < 10)
 putchar(s + '0');
 putchar('\n');
