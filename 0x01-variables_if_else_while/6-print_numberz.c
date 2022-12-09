@@ -7,7 +7,7 @@ int main(void)
 {
 int s = 0;
 while (s < 10)
-putchar(s + '0');
+putchar(48 + s);
 putchar('\n');
 return (0);
 }
