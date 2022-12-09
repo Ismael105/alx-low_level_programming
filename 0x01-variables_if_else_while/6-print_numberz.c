@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-int s, d;
-for (s = 0; s < 10; s++)
+char s, d;
+for (s = '0'; s < '10'; s++)
 putchar("%d", s);
 putchar('\n');
 return (0);
