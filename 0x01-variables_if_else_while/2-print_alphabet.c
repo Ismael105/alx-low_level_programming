@@ -1,10 +1,13 @@
 #include <stdio.h>
+/**
+ *main - Entry point
+ *Retur: Always 0 (Success)
+ */
 int main(void)
 {
-char str[26];
-int i;
+char i;
 for (i='a'; i<='z'; i++)
-putchar(str[i]);
+putchar(i);
 putchar('\n');
 return (0);
 }
