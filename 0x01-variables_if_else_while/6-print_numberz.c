@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-char s, d;
-for (s = '0'; s < '10'; s++)
-putchar("%d", s);
+char s = 0;
+while (s < 10)
+putchar(s + '0');
 putchar('\n');
 return (0);
 }
