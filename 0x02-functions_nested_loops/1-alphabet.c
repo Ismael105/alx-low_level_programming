@@ -1,13 +1,15 @@
-#include <stdio.h>
-int main(void)
+#include "main.h"
+/**
+ * print-alphabet-entry point
+ * Return: 0
+ */
+void print_alphabet(void)
 {
- int _putchar(print_alphabet());
-return (0);
+char i = 'a';
+while (i < 'z')
+{
+_putchar(i);
+i++;
 }
-int print_alphabet(char a)
-{
-char i;
-for(i = 'a'; i <= 'z'; i++)
-{
-return(i, "\n");
+ _putchar('\n';
 }
