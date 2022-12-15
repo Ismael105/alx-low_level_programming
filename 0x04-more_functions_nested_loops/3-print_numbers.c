@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- *print_numbers - prints numbers 0123456789\n
- *Return: void 
+ * print_numbers - prints numbers 0123456789\n
+ * Return: void 
  */
 void print_numbers(void)
 {
-char i;
-for (i = '0'; i <= '9'; i++)
+int i;
+for (i = 0; i <= 9; i++)
 {
-_putchar(i);
+_putchar(i + '0');
 }
 _puthchar('\n');
 }
