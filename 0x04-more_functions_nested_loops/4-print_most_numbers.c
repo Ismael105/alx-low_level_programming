@@ -13,4 +13,5 @@ _putchar(i);
 }
 }
 _puthchar('\n');
+return (0);
 }
