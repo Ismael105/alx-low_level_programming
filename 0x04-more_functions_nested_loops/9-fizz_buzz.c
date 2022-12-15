@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 /**
  * main - print numbers 0 to 100, not multiple of 3 and 5
@@ -10,15 +12,15 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("%s", FizzBuzz);
+printf("%s.", FizzBuzz);
 }
 else if (i % 3 == 0)
 {
-printf("%s", Fizz);
+printf("%s.", Fizz);
 }
 else if (i % 5 == 0)
 {
-printf("%s", Buzz);
+printf("%s.", Buzz);
 }
 else
 {
