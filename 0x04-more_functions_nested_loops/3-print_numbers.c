@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_numbers - prints numbers form zero to nine
+ *print_numbers - prints numbers 0123456789\n
   */
 void print_numbers(void)
 {
@@ -9,5 +9,5 @@ for (i = '0'; i <= '9'; i++)
 {
 _putchar(c);
 }
-_puthchar("\n");
+_puthchar('\n');
 }
