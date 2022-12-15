@@ -11,7 +11,6 @@ if (i != '2' || i != '4')
 {
 _putchar(i);
 }
-continue;
 }
 _puthchar('\n');
 }
