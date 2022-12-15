@@ -9,9 +9,9 @@ int i;
 for (i = 0; i <= 100)
 {
 if (i % 3 == 0 && i % 5 == 0)
-putchar("FizzBuzz");
+printf("FizzBuzz");
 else if (i % 3 == 0)
-putchar("Fizz");
+printf("Fizz");
 else
 {
 printf(i);
