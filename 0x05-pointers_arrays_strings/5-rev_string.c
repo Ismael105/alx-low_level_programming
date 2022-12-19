@@ -18,5 +18,4 @@ r = s[i];
 s[i] = s[c];
 s[c] = r;
 }
-return (s[c]);
 }
