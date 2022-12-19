@@ -6,7 +6,7 @@
  */
 void puts2(char *str)
 {
-void puts2(char *str);
+puts2(char *str);
 int i = 0;
 for (; str[i] != '\0'; i++)
 {
