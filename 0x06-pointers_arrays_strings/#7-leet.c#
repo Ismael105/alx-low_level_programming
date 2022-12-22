@@ -9,7 +9,7 @@ char *leet(char *str)
 {
 int i = 0;
 int j;
-char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+char leet[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T','l', 'L'};
 while (str[++i])
 {
 for (j = 0; j <= 7; j++)
