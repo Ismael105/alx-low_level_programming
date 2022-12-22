@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * cap_string - function to capitalize first
- * @str: string
- * Return: capital
+ * cap_string - function to capitalize first character of a word
+ * @str: string to capitalize
+ * Return: capital string
  */
 char *cap_string(char *str)
 {
@@ -24,6 +24,7 @@ str[i - 1] == '{' ||
 str[i - 1] == '}' ||
 i == 0)
 str[i - 1] -= 32;
+i++;
 }
 return (str);
 }
