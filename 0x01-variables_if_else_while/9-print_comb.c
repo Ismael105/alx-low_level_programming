@@ -8,12 +8,13 @@ int main(void)
 char a;
 for (a = '0'; a <= '9'; a++)
 {
-cahr 'b';
+char b;
+ char c = ", ";
 for (b = '0'; b <= '9'; b++)
 {
 putchar(a);
 putchar(b);
-putchar(", ");
+putchar(c);
 }
 }
 putchar('\n');
