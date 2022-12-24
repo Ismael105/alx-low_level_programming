@@ -5,8 +5,11 @@
  */
 int main(void)
 {
-int a = 0, b;
-for (b = 1; b <= 3; b++)
+int a, b;
+for (a = 0; a <= 8; a++)
+{
+b = a + 1;
+for (; b <= 9; b++)
 {
 putchar(a + '0');
 putchar(b + '0');
