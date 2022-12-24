@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-int a = 48, b;
-for (b = 48; b <= 50; b++)
+int a = 0, b;
+for (b = 1; b <= 3; b++)
 {
-putchar(a);
-putchar(b);
+putchar(a + '0');
+putchar(b + '0');
 if (b != 50)
 {
 putchar(44);
 putchar(32);
-}}}
+}}
 putchar('\n');
 return (0);
 }
