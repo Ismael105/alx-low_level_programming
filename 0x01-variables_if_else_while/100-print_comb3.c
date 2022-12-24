@@ -13,7 +13,7 @@ for (; b <= 9; b++)
 {
 putchar(a + '0');
 putchar(b + '0');
-if (b != 9)
+if (a != 8)
 {
 putchar(44);
 putchar(32);
