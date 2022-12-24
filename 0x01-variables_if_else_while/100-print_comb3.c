@@ -6,14 +6,15 @@
 int main(void)
 {
 int a = 48, b;
-while (a = 48)
+for (b = 48; b <= 50; b++)
 {
-for (b = a; b <= 50; b++)
+putchar(a);
+putchar(b);
+if (b != 50)
 {
-putchar("%b, %b", a, b);
 putchar(44);
 putchar(32);
-}}
+}}}
 putchar('\n');
 return (0);
 }
