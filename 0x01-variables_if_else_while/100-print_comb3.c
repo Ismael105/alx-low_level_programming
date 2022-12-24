@@ -1,26 +1,19 @@
 #include <stdio.h>
-
 /**
-
  *main - Entry point
-
  *Return: Always 0 (Success)
-
  */
-
 int main(void)
-  
 {
-  int a, b, c;
-  for (a = 0; a < 3; a++)
-    {
-      for (b = 1; b < 4; b++)
-	{
-	  for (c = 2; c < 5; c++)
-	    {
-	      if (a != b && b != c && a != c)
-		{
-		  putchar("%b, %b, %b", a, b, c);
-		}}}}
-  return (0);
+int a = 48, b;
+while (a = 48)
+{
+for (b = a; b <= 50; b++)
+{
+putchar("%b, %b", a, b);
+putchar(44);
+putchar(32);
+}}
+putchar('\n');
+return (0);
 }
