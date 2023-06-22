@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * function _isalpha - identifies letters from other characters
- * c - it is any kind of input
- * return - returns 1 and 0 based on the c value 
+ * _isalpha-identifies letters from other characters
+ * int c-it is any kind of input
+ * return-returns 1 and 0 based on the c value 
  */
 int _isalpha(int c)
 {
