@@ -4,12 +4,14 @@
  *
  * Return: Always 0.
  */
-for (i = 0; i < 10; i++)
+int i=0;
+char c;
+while (i < 10)
 {
-j = 'a';
-while (j <= z)
+c = 'a';
+while (c  <= 'z')
 {
-_putchar(j);
+_putchar(c);
 }
 _putchar('\n');
 }
