@@ -1,4 +1,7 @@
 #include "main.h"
+/*
+ * no return
+ */
 for (i = 0; i < 10; i++)
 {
 j = 'a';
