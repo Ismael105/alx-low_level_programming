@@ -1,7 +1,8 @@
 #include "main.h"
-#include <stdio.h>
-/*
- * no return
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
 for (i = 0; i < 10; i++)
 {
