@@ -4,11 +4,9 @@
  * @i: the integer to be converted.
  * Return: absolute value of the input number.
  */
-int _abs(int a)
+int _abs(int i)
 {
-if (a >= 0)
-{
-return (a);
-}
-return (-a);
+	if (i < 0)
+		i = i * -1;
+	return (i);
 }
