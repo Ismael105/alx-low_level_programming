@@ -1,31 +1,21 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
 /**
- * main - paso
- *
- * Return: int 0;
- */
-int main(void)
+* _atoi - changes a string to an int
+* @s: the string to be changed
+*
+* Return: the converted int
+*/
+int _atoi(char *s)
 {
-	char str[100];
-	int i = 0, randNum = 0, suma = 0;
-
-	srand (time(NULL));
-
-
-	for (i = 0; suma <= 2644; i++)
-	{
-		randNum = (rand() % 25) + 65;
-
-		str[i] = randNum;
-		suma = suma + randNum;
-	}
-
-	str[i++] = 2772 - suma;
-	str[i++] = '\0';
-
-	printf("%s\n", str);
-
-	return (0);
+int i = 1;
+unsigned int num = 0;
+do {
+if (*s == '-')
+i *= -1;
+else if (*s >= '0' && *s <= '9')
+num = num * 10 + (*s - '0');
+else if (num > 0)
+break;
+} while (*s++);
+return (num *i);
 }
