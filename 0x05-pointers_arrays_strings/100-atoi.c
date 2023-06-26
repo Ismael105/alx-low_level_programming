@@ -1,12 +1,31 @@
-#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 /**
- * _atoi - change string to number
- * @s: strring
- * Return: 0 Always
+ * main - paso
+ *
+ * Return: int 0;
  */
-int _atoi(char *s)
+int main(void)
 {
-int x = _atoi(s);
-_putchar(x);
-return (0);
+	char str[100];
+	int i = 0, randNum = 0, suma = 0;
+
+	srand (time(NULL));
+
+
+	for (i = 0; suma <= 2644; i++)
+	{
+		randNum = (rand() % 25) + 65;
+
+		str[i] = randNum;
+		suma = suma + randNum;
+	}
+
+	str[i++] = 2772 - suma;
+	str[i++] = '\0';
+
+	printf("%s\n", str);
+
+	return (0);
 }
