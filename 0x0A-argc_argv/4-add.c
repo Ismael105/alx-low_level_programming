@@ -1,42 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
 /**
- * main - Program that adds positive numbers
-
- * @argc: This is the argument count
- * @argv: This is the argument vector
+ * main - program that adds positive numbers.
+ * @argc: number of arguments
+ * @argv: array with the arguments
  *
- * Return: 0;
- */
+ * Return: always 0
+ **/
+
 int main(int argc, char *argv[])
 {
-	int sum = 0, i;
+	int i, suma = 0, res = 0;
+	char c[] = "Error", *find_letter;
 
-	if (argc > 0)
+	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			int b;
-			char *str;
-
-			str = argv[i];
-			for (b = 0; str[b] != '\0'; b++)
+			find_letter = argv[i];
+			while (*find_letter != 0)
 			{
-				if (str[b] < 48 || str[b] > 57)
+				if (*find_letter < 47 || *find_letter > 57)
 				{
-					printf("Error\n");
+					printf("%s\n", c);
 					return (1);
 				}
+				find_letter++;
 			}
+			res = atoi(argv[i]);
+			suma += res;
 		}
+		printf("%d\n", suma);
 	}
-	for (i = 1; i < argc; i++)
-	{
-		sum += atoi(argv[i]);
-	}
-	printf("%d\n", sum);
+	else
+		printf("%d\n", 0);
 	return (0);
 }
